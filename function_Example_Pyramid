@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Loop Example </title>
+</head>
+<body>
+     <!-- Notice that the script is in the body and not in the head element -->
+     <script type="text/javascript">
+      /* 
+        for loop example by John Hamilton 
+        This looping example stakes # in a pyramid 
+        #
+        ##
+        ###
+        ####
+        #####
+      */
+     //for loop : for { counter statement; condition statement; increment or decrement statement}
+     var poundNum = 10;//This line is to let the for loop count to 10 as a limit 
+     var strValue = "";//variable of strValue set to nothing 
+     var t =  "";//variable t set to nothing use to display the items in the alert 
+    //for(var x =0;x<=10;x++)
+    
+
+     for(r = 0; r <= poundNum ; r++) { //first "for loop" goes through 10 times 
+            
+          for(c = 1; c <= r;c++) {// second "for loop" appends # symbol based on loop of c value 
+               
+                    strValue += '#';//simple append statement
+              }
+                 t = strValue += '\n';//assign t to the strValue 
+          }
+      alert(t);//display all items 
+    </script>   
+</body>
+</html>
