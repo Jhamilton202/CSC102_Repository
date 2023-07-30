@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Manipulation</title>
+</head>
+<body>
+    <script type="text/javascript">
+    var aFunc = function()
+    {
+      //var cars = "KCar";
+      //var Name = "John Hamilton"//13 Character 
+      //var x = Name.length;
+     //alert(x);
+      //var LastNAme = "Doe"; 
+    // var aExample = "JavaScript";// A string is charcters or a character between double and single quotation marks "John" 'John'
+     //var SomeNumber = 25.252522222;
+     // var tax = 7.25; 
+    // var aVariableOut = aExample.charAt(3);//index based 0 ---->
+    // alert("Example of charAt " + aVariableOut);
+
+     //var bExampleCancat1 = "Java";
+     //var bExampleCancat2 = "Script";
+     //var bExampleCancat3 = ":CSC102";
+    // var bVariableOut = bExampleCancat1.concat(bExampleCancat2 + bExampleCancat3);
+    //alert("Example of concat " + bVariableOut);
+
+    // var cExample = "JavaScript";
+    // var cVariableOut = cExample.indexOf("a");
+    //var cVariableOut2 = cExample.indexOf("a",2);
+    //alert("Example of indexOf 1: " + cVariableOut);
+    //alert("Example of indexOf 2: " + cVariableOut2);
+    
+     //var dExample = "JavaScript";
+     //var dVariableOut = dExample.substring(0,6);//0 - 6 = 6 JavaSc start end 
+    // var dVariableOut2 = dExample.indexOf("c");
+    //alert("Example of substring 1: " + dVariableOut);
+  //  alert("Example of substring 2: " + dVariableOut2);
+     
+     //var eExample = "JavaScript";
+     //var eVariableOut = eExample.toLowerCase();
+   // var eVariableOut2 = eExample.toUpperCase();
+    //alert("Example of toLowerCase : " + eVariableOut);
+   // alert("Example of toUpperCase : " + eVariableOut2);
+    }
+        aFunc();
+    </script>
