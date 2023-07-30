@@ -1,0 +1,31 @@
+let intervalId; // variable to hold the interval ID
+let seconds = 0;
+let minutes = 0;
+let hours = 0;
+
+
+function startTimer() {
+  intervalId = setInterval(updateTimer, 1000);
+}
+
+function updateTimer() {
+  seconds++;
+
+  if (seconds === 60) {
+    seconds = 0;
+    minutes++;
+  }
+
+  if (minutes === 60) {
+    minutes = 0;
+    hours++;
+  }
+  const time ="Hours: " +  " " + hours + " Minutes:  " + " "  + minutes + " Seconds: "  + " " + seconds;
+  const timerDisplay = document.getElementById("timer");
+  timerDisplay.innerText = time;
+ 
+  }
+  
+  function stopTimer() {
+  clearInterval(intervalId);
+}
