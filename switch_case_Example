@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+      var gradeLetter;
+     var selectFunction = function()
+     {
+        
+        var select = document.getElementById("selectGrade").value;
+
+        gradeLetter = select;
+        switch (gradeLetter) {
+            case "A": 
+            alert("well done above average")
+            break;
+            case "B": 
+            alert("good job above average")
+            break;
+            case "C": 
+            alert("average")
+            break;
+            case "D": 
+            alert("below average")
+            break;
+            case "F": 
+            alert("failed")
+            break;
+           
+            default: 
+            alert("grade invalid")
+            break;
+        }
+        }
+    </script>
+    <label for="selectGrade">Select grade:</label>
+    <select id="selectGrade">
+        <option value=" "></option>
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="C">C</option>
+        <option value="D">D</option>
+        <option value="F">F</option>
+    </select>
+    <br />
+    <button id="btn" onclick= "selectFunction()";> Show me the message</button>
+</body>
+</html>
