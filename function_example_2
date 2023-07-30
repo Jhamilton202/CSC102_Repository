@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions 3 Parameters</title>
+    <script type = "text/javascript">
+     
+/*
+Code example taxrate and subtotal by John Hamilon 
+This example uses two parameters in a function subtotal and taxrate
+Inputs are subtotal and taxrate - typically the parameter items would be inserted using 
+code in the body  
+*/
+    
+     var subtotal = 85.00; //global variables 
+     var taxrate = 0.05;
+   
+     var calcuateTaxes = function(subtotal, taxrate)
+     {
+        var tax = subtotal * taxrate; //tax is a local variable 
+        tax = tax.toFixed(2);
+        return tax;
+        
+     }
+
+     var salesTax = calcuateTaxes(subtotal,taxrate)
+     alert(salesTax);
+    </script>
+ 
+</head>
+<body>
+ <!-- 
+DFSGDAFGADFGdf
+aGfdgadfgagag
+agadfgdafgadfg
+
+ -->
+</body>
+</html>
