@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}  
+table, th, td {
+        border: 1px solid rgb(230, 225, 225);
+        border-collapse: collapse;
+        padding: 15px;
+        
+      } 
+      .thClass{
+        
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:rgb(20, 57, 220);
+      }
+      .tdCenter
+      {
+        text-align:center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color:crimson;
+       
+      }
+    </style>
+</head>
+<body>
+        <!--background-color: rgb(219, 216, 14); 
+            <colgroup>
+                <col span="4" style="background-color: #6aa358">
+              </colgroup>    
+        
+        --> 
+    <div style="position:absolute;margin-left:800px;">
+        <caption>CIS 100 Intro. To Programming</caption>
+ 
+    </div>
+    <div style="position:absolute;margin-left:500px;margin-top:50px;">
+        <table>
+            
+
+            <tr class="thClass">
+              <th>Week 1</th>
+              <th>Week 2</th>
+              <th>Week 3</th>
+              <th>Week 4</th>
+              <th>Week 5</th>
+            </tr>
+            <tr class="tdCenter">
+              <td>Module 1</td>
+              <td>Module 2</td>
+              <td>Module 3</td>
+              <td>Module 4</td>
+              <td>Module 5</td>
+            </tr>
+            <tr>
+              <td>Web Design Basics</td>
+              <td>Layout, Wire Frames and Art</td>
+              <td>UI/UX (User Experience) and Best Practice</td>
+              <td>Tables and SEO</td>
+              <td>JavaScript and Final website</td>
+            </tr>
+          </table>
+    </div>
+    
+</body>
+</html>
