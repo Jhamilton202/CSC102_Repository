@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+    
+    <script type="text/javascript">
+
+               function MyLiveClassFunction()
+               {
+                 alert("Hello Again Class!");
+               }
+
+               MyLiveClassFunction();
+    </script>   
+
+
+    <script type="text/javascript">
+
+/* Code example of a simple JavaScript function by John Hamilon
+   The code uses a button, when clicked the function is run 
+*/
+         
+           function firstFunction() 
+            {
+                var x = 5;
+                var y = 11;
+                var Total = x + y;
+                
+                document.getElementById("checkFunction").innerHTML = "This is the total of x=5 and y=11 is a value of   " + Total;
+
+              //  alert(Total);  
+            }
+           
+    </script>
+
+</head>
+<body>
+    <button id="btn" onclick="firstFunction()">Click Me</button>
+
+    <p id="checkFunction"></p>
+</body>
+</html>
