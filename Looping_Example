@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditions 1 Do While Statement</title>
+    
+</head>
+<body>
+    <!-- Notice that the script is in the body and not in the head element -->
+    <script type="text/javascript">
+        /*
+            Basic control example - John Hamiton 
+        */
+        //Declarations 
+        var sumOfnumbers = 0;
+        var numberOfLoops = 10;
+        //var counter = 1;
+   //do {some statement} while (condition is not met)
+        do {
+            if(sumOfnumbers!=NaN)
+               {
+
+            sumOfnumbers += 1;//
+           // counter++;  +; 
+            alert(sumOfnumbers)
+                }
+           }
+        while (sumOfnumbers <=numberOfLoops - 1);//counter <=numberOfLoops
+       
+    </script>
+</body>
+</html>
