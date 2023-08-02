@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strings HTML Document</title>
+    <style>
+     label{
+        background-color: bisque;
+     }
+     button{
+        background-color: lightblue;
+
+     }
+    
+    </style>
+    <script>
+        function strCheck(){
+        var fname = document.getElementById("input_fname").value;
+        var lname = document.getElementById("input_lname").value; 
+        var concName = "Hello " + fname + " " + lname;
+        document.getElementById("conc_names").innerHTML = concName;
+        
+        if(concName > 20){
+            alert("String is greater than 20 characters");
+        }else{
+            alert("String is less than 20 characters"); 
+        }
+        
+        var zip = document.getElementById("input_zip").value;
+        if(zip.length == 5)   {
+            alert("Zip code is good to go!")
+        }
+        else{
+            alert("Zip code is not good to go! Re-enter Zipcode!")
+        }     
+        }
+    </script>
+</head>
+<body>
+    
+ <h1>User First Name and Last Name along with Zip</h1><br />
+<p id="conc_names"></p><br />
+
+ <label id="fname_label">Type in First Name</label>&nbsp;&nbsp;<input id="input_fname" type="text" style="width:100px" /><br />
+ <label id="lname_label">Type in Last Name</label>&nbsp;&nbsp;<input id="input_lname" type="text" style="width:100px" /><br />
+ <label id="zip_label">Type in Zip Code</label>&nbsp;&nbsp;<input id="input_zip" type="text" style="width:45px" /><br />
+ <button id="run_code_btn" onclick="strCheck()">Run String Check</button>
+</body>
+</html>
