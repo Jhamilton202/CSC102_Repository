@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Manipulation</title>
+</head>
+<body>
+  <h1 id="displayString"></h1>
+  <h1 id="displayString1"></h1>
+  <h1 id="displayString2"></h1>
+  <h1 id="displayString3"></h1>
+  <h1 id="displayString4"></h1>
+  <h1 id="displayString5"></h1>
+  <h1 id="displayString6"></h1>
+  <h1 id="displayString7"></h1>
+  <h1 id="displayString8"></h1>
+    <script type="text/javascript">
+    var aFunc = function()
+    {
+    
+   var Name = "Hosheyah Yisrael"// 
+   var x = Name.length;
+   document.getElementById("displayString").innerHTML = x;
+   var LastNAme = "Doe"; 
+   var aExample = "JavaScript";// A string is charcters or a character between double and single quotation marks "John" 'John'
+   var SomeNumber = 25.252522222;
+   var tax = 7.25; 
+
+   document.getElementById("displayString1").innerHTML = LastNAme + " " + aExample + " " + SomeNumber + tax;
+   var aVariableOut = Name.charAt(3);//index based 0 ---->
+  alert(aVariableOut)
+
+  var bExampleCancat1 = "Java";
+  var bExampleCancat2 = "Script";
+  var bExampleCancat3 = ":CSC102";
+  var bVariableOut = bExampleCancat1.concat(bExampleCancat2 + bExampleCancat3);
+  
+  document.getElementById("displayString1").innerHTML =bVariableOut
+  var cExample = "Guy Avenetti";
+  var cVariableOut = cExample.indexOf("e");// a
+  var cVariableOut2 = cExample.indexOf("e",7);// a
+ //search for the first occurrence of the substring "a" in the string 
+ //"cExample" starting from the third character (index 2) of the string. 
+  document.getElementById("displayString2").innerHTML = cVariableOut2  
+  var dExample = "Carlos Alvira";
+  var dVariableOut3 = dExample.substring(0,6);//0 - 6 = JavaSc (start, end) 
+  var dVariableOut4 = dExample.indexOf("c");
+  document.getElementById("displayString3").innerHTML =dVariableOut3
+ // alert("Example of substring 1: " + dVariableOut);
+ //alert("Example of substring 2: " + dVariableOut2);
+     
+     var eExample = "Marina Mars De Castro";
+    var eVariablelowerOut = eExample.toLowerCase();
+   var eVariableUpperOut = eExample.toUpperCase();
+
+   document.getElementById("displayString4").innerHTML = eVariableUpperOut
+   //alert("Example of toLowerCase : " + eVariableOut);
+   //alert("Example of toUpperCase : " + eVariableOut2);
+    }
+        aFunc();
+    </script>
+
+ 
+</body>
+</html>
