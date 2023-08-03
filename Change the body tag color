@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background color demo</title>
+    <style>
+        button{
+            font-size: 20px;
+            width: 300px;
+            height:100px;
+            color: white;
+        }
+    </style>
+ 
+    <script>
+        function change_to_blue(){
+            document.getElementById("b").style.backgroundColor = "blue";
+        }
+        function change_to_red(){
+            document.getElementById("b").style.backgroundColor = "red";
+        }
+        function change_background_color(){
+            document.getElementById("b").style.backgroundColor = "tan";
+        }
+    </script>
+</head>
+<body id="b" onload="change_background_color()">
+<button id="btn1" onclick="change_to_blue()" style="background-color: blue;">Change to Blue</button>
+<button id="btn2" onclick="change_to_red()" style="background-color: red;">Change to Red</button>
+<button id="btn2" onclick="change_background_color()" style="background-color: tan;">Change to Tan</button>
+ 
+ 
+</body>
+</html>
