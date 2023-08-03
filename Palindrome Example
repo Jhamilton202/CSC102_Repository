@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palindrome Example</title>
+    <script>
+     function Palindrome(str){
+        const cleanStr = str.toLowerCase().replace(/[^a-z0-9]/g,'');       
+        return cleanStr === cleanStr.split('').reverse().join('');
+        }
+    const inputString = "rotator"
+//Miami 
+//We panic in a pew.
+//racecar!          
+    if(Palindrome(inputString)) {
+        alert(inputString + " this a Palindrome")
+
+    }else{
+        alert(inputString + " this is not a Palindrome")
+    }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html> 
